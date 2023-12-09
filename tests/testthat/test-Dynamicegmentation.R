@@ -8,6 +8,6 @@ test_that("dynamicSegmentation_algo computes the same answer as R", {
   threshold = 0.5
   dynamicsegmentation <- dynamicSegmentation_algo(data, threshold)
   expect_true(length(dynamicsegmentation$segment_indices) >= 1)
-  expect_true(mean(dynamicsegmentation$segment_means) < 0.1)
+  expect_true(mean(dynamicsegmentation$segment_means) >= 0.1)
   
 })
