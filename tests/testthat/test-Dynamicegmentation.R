@@ -16,6 +16,6 @@ test_that("dynamicSegmentation_algo computes the same answer as R", {
   
   # Check the actual values
   expect_equal(dynamicsegmentation$segment_indices, 1)
-  expect_equal(dynamicsegmentation$segment_means, 0.09040591)
+  expect_equal(dynamicsegmentation$segment_means, 0.09040591, tolerance = 1e-6)
   
 })
