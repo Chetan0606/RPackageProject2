@@ -1,3 +1,4 @@
 useDynLib(RPackage2, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
+importFrom(testthat, expect_equal, test_that)
 exportPattern("^[[:alpha:]]+")

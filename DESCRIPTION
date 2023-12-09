@@ -4,8 +4,9 @@ Title: R Package 2
 Version: 2023.12.07
 Author: Chetan Sunku
 Maintainer: Chetan Sunku <cs3567@nau.edu>
-Description: R package Creation Project 2
+Description: R package Creation Project for Binary and Dynamic Segmentation.
 License: GPL-3
 LinkingTo: Rcpp, RcppEigen
-Imports: Rcpp, rlang (>= 1.1.1), testthat
+Imports: Rcpp, testthat
 RoxygenNote: 7.2.3
+
