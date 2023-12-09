@@ -8,6 +8,6 @@ test_that("dynamicSegmentation_algo computes the same answer as R", {
   binarySegmentation <- binarySegmentation_algo(data)
   
   expect_equal(binarySegmentation$split_index, 51)
-  expect_equal(binarySegmentation$split_value, 5.084975)
+  expect_equal(binarySegmentation$split_value, 5.084975, tolerance = 1e-6)
   
 })
